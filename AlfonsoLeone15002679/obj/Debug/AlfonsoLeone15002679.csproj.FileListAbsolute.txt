@@ -1,0 +1,9 @@
+\\mac\home\documents\visual studio 2015\Projects\AlfonsoLeone15002679\AlfonsoLeone15002679\bin\Debug\AlfonsoLeone15002679.exe.config
+\\Mac\Home\Documents\Visual Studio 2015\Projects\AlfonsoLeone15002679\AlfonsoLeone15002679\obj\Debug\AlfonsoLeone15002679.csprojResolveAssemblyReference.cache
+\\Mac\Home\Documents\Visual Studio 2015\Projects\AlfonsoLeone15002679\AlfonsoLeone15002679\obj\Debug\AlfonsoLeone15002679.Form1.resources
+\\Mac\Home\Documents\Visual Studio 2015\Projects\AlfonsoLeone15002679\AlfonsoLeone15002679\obj\Debug\AlfonsoLeone15002679.Properties.Resources.resources
+\\Mac\Home\Documents\Visual Studio 2015\Projects\AlfonsoLeone15002679\AlfonsoLeone15002679\obj\Debug\AlfonsoLeone15002679.csproj.GenerateResource.Cache
+\\Mac\Home\Documents\Visual Studio 2015\Projects\AlfonsoLeone15002679\AlfonsoLeone15002679\bin\Debug\AlfonsoLeone15002679.exe
+\\Mac\Home\Documents\Visual Studio 2015\Projects\AlfonsoLeone15002679\AlfonsoLeone15002679\bin\Debug\AlfonsoLeone15002679.pdb
+\\Mac\Home\Documents\Visual Studio 2015\Projects\AlfonsoLeone15002679\AlfonsoLeone15002679\obj\Debug\AlfonsoLeone15002679.exe
+\\Mac\Home\Documents\Visual Studio 2015\Projects\AlfonsoLeone15002679\AlfonsoLeone15002679\obj\Debug\AlfonsoLeone15002679.pdb
