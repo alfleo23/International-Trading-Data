@@ -56,6 +56,8 @@
             this.partnersComboBox = new System.Windows.Forms.ComboBox();
             this.tradingWithLabel = new System.Windows.Forms.Label();
             this.bestTraderButton = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
+            this.textBox1 = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // countriesListBox
@@ -220,7 +222,7 @@
             // 
             this.addPartnerTextField.Location = new System.Drawing.Point(763, 731);
             this.addPartnerTextField.Name = "addPartnerTextField";
-            this.addPartnerTextField.Size = new System.Drawing.Size(200, 31);
+            this.addPartnerTextField.Size = new System.Drawing.Size(182, 31);
             this.addPartnerTextField.TabIndex = 18;
             // 
             // label1
@@ -305,11 +307,29 @@
             this.bestTraderButton.UseVisualStyleBackColor = true;
             this.bestTraderButton.Click += new System.EventHandler(this.bestTraderButton_Click);
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(73, 877);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(201, 88);
+            this.button1.TabIndex = 28;
+            this.button1.Text = "Modify name of selected country";
+            this.button1.UseVisualStyleBackColor = true;
+            // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(303, 909);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(166, 31);
+            this.textBox1.TabIndex = 29;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1426, 1015);
+            this.ClientSize = new System.Drawing.Size(1502, 1023);
+            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.bestTraderButton);
             this.Controls.Add(this.tradingWithLabel);
             this.Controls.Add(this.partnersComboBox);
@@ -339,6 +359,7 @@
             this.Controls.Add(this.tradingPartnersListBox);
             this.Controls.Add(this.countriesListBox);
             this.Name = "Form1";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "International Trading Data";
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -375,6 +396,8 @@
         private System.Windows.Forms.ComboBox partnersComboBox;
         private System.Windows.Forms.Label tradingWithLabel;
         private System.Windows.Forms.Button bestTraderButton;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.TextBox textBox1;
     }
 }
 

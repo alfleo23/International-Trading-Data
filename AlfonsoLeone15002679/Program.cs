@@ -16,7 +16,9 @@ namespace AlfonsoLeone15002679
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Form1 myForm = new Form1();
+            myForm.Size = new System.Drawing.Size(750, 560);
+            Application.Run(myForm);
         }
     }
 }

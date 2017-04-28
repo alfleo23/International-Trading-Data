@@ -77,26 +77,26 @@ namespace AlfonsoLeone15002679
             }
             int balance  = maxDepth(tree.Left) - maxDepth(tree.Right);
 
-            // Left Left Case
+            // Left Left
             if (balance > 1 && (maxDepth(tree.Left.Left) - maxDepth(tree.Left.Right) >= 0) )
             {
                 rotateRight(ref tree);
             }
 
-            // Left Right Case
+            // Left Right
             if (balance > 1 && (maxDepth(tree.Left.Left) - maxDepth(tree.Left.Right) >= 0))
             {
                 rotateLeft(ref tree.Left);
                 rotateRight(ref tree); 
             }
 
-            // Right Right Case
+            // Right Right
             if (balance < -1 && (maxDepth(tree.Right.Left) - maxDepth(tree.Right.Right) <= 0) )
             {
                 rotateLeft(ref tree);
             }
 
-            // Right Left Case
+            // Right Left
             if (balance < -1 && (maxDepth(tree.Right.Left) - maxDepth(tree.Right.Right) <= 0))
             {
                 rotateRight(ref tree.Right);

@@ -13,7 +13,6 @@ namespace AlfonsoLeone15002679
 {
     public partial class Form1 : Form
     {
-        
         static string[] headers = new string[6]; //column headers
         AVLTree<Country> countryTree = new AVLTree<Country>();
         List<string> tradingPartners;
